@@ -9,7 +9,7 @@ body{
     
 }
 ul{
-    display: block;
+    display: inline;
 }
 li{
     color: black;
