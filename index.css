@@ -41,6 +41,7 @@ div.logo{
     height: 100px;
     width: 100px;
     right: 20px;
+    position: absolute;
 }
 img{
     height: 100px;
