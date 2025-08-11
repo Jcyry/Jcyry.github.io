@@ -14,7 +14,7 @@ li{
     margin:none;
     border: solid 2px black;
     background-color: transparent;
-    padding: 14px;
+    padding-bottol: 10px;
     border-radius: 10px;
     border-top: none;
     border-bottom: none;
@@ -31,7 +31,7 @@ a{
 ul{
     background-color: white;
     width: 100%;
-    height: 150px;
+    height: 190px;
     position: fixed;
     z-index: 100;
     bottom: 0px;
@@ -62,5 +62,4 @@ img.logo{
 }
 img.menu{
     width: 100%;
-    height: 150px;
-    display: block;
+    height: 190px;
