@@ -12,11 +12,12 @@ li{
     color: black;
     text-decoration: none;
     margin:none;
-    border: solid 5px black;
+    border: solid 2px black;
     background-color: transparent;
     padding: 14px;
-    border-radius: none;
+    border-radius: 10px;
     border-top: none;
+    border-bottom: none;
     width: 25%;
     flex: 1;
 }
