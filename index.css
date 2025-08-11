@@ -15,7 +15,7 @@ li{
     margin:none;
     border: solid 5px black;
     background-color: transparent;
-    padding: none;
+    padding: auto;
     border-radius: none;
     border-top: none;
     width: 25%;
