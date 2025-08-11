@@ -12,7 +12,7 @@ li{
     color: black;
     text-decoration: none;
     display: inline-flex;
-    margin-left: 20px;
+    margin:none;
     border: solid 5px black;
     background-color: transparent;
     padding: none;
