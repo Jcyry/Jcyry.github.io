@@ -49,13 +49,12 @@ nav{
     position: fixed;
     z-index: 100;
     top: 0px;
+    display: flex;
 }
 /*disposition du logo*/
 div.logo{
     height: 80px;
     width: 80px;
-    right: 20px;
-    position: absolute;
 }
 img.logo{
     height: 80px;
