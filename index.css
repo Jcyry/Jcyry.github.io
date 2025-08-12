@@ -52,8 +52,8 @@ nav{
 }
 /*disposition du logo*/
 img.logo{
-    height: 60px;
-    width: 60px;
+    height: 100px;
+    width: 100px;
     border-radius: 10px;
     position: absolute;
     right: 20px
