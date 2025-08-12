@@ -11,11 +11,8 @@ body{
 li{
     text-decoration: none;
     margin:none;
-    border: solid 2px black;
+    border: none;
     background-color: transparent;
-    border-radius: 10px;
-    border-top: none;
-    border-bottom: none;
     width: 20%;
     flex: 1;
     list-style: none;
