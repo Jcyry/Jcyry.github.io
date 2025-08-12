@@ -9,17 +9,19 @@ body{
     
 }
 li{
-    color: black;
     text-decoration: none;
     margin:none;
     border: solid 2px black;
     background-color: transparent;
-    padding-bottol: 10px;
     border-radius: 10px;
     border-top: none;
     border-bottom: none;
     width: 25%;
     flex: 1;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: enter;
 }
 a{
     text-decoration: none;
