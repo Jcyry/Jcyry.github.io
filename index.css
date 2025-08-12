@@ -52,14 +52,10 @@ nav{
     display: flex;
 }
 /*disposition du logo*/
-div.logo{
-    height: 80px;
-    width: 80px;
-}
 img.logo{
     height: 80px;
     width: 80px;
-    border-radius: 30px;
+    border-radius: 10px;
 }
 img.menu{
     width: 50%;
