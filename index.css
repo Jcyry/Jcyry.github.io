@@ -29,7 +29,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100px
+    height: 80px
 }
 ul{
     background-color: white;
@@ -63,5 +63,5 @@ img.logo{
     border-radius: 30px;
 }
 img.menu{
-    width: 33%;
+    width: 50%;
     height: 50%;
