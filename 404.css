@@ -4,7 +4,7 @@
 }
 @media (max-width: 575.98px){
  body{
-    background-image: url("IMG_2894.png");
+    background-color: blue;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -22,6 +22,11 @@
  h1{
     color: rgb(19,74,225, 1);
     font-family: Times New Roman;
-    font-size: 30px;
+    font-size: 25px;
  }
+p1{
+    color: white;
+    font-family: times new Roman;
+    font-weight: bold;
+  }
 }
