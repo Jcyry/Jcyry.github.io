@@ -17,6 +17,7 @@ div.error{
     width: 50%;
     height: 50%;
     background-color: rgb(225, 225, 225, 0.3);
+    pasding: 30px;
 }
 h1{
     color: rgb(19,74,225, 1);
