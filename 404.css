@@ -3,16 +3,15 @@
     padding: 0px;
 }
 body{
-    background-color: rgb(19, 115, 196, 0.5);
+    background-image: url("IMG_2894.png");
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center
     width: 100%;
     height: 100%;
 }
-img{
-    width: 100%;
-    height: 100%;
 }
 div.error{
     width: 50%;
