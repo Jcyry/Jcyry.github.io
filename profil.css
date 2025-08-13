@@ -1,0 +1,170 @@
+/* ===== Variables, thèmes, reset minimal ===== */
+:root{
+  --bg: #0b0c10;
+  --panel: #111318;
+  --muted: #b2b7c2;
+  --text: #e8ebf0;
+  --brand: #5b8cff;
+  --brand-ink: #0b2a78;
+  --ok: #22c55e;
+  --warn: #f59e0b;
+  --danger: #ef4444;
+  --ring: 0 0 0 .12rem rgba(91,140,255,.5);
+  --radius: 14px;
+  --shadow: 0 10px 30px rgba(0,0,0,.25);
+}
+
+@media (prefers-color-scheme: light){
+  :root{
+    --bg:#f6f7fb; --panel:#ffffff; --text:#111827; --muted:#4b5563;
+    --brand:#3b82f6; --brand-ink:#0b2a78;
+    --shadow: 0 6px 20px rgba(0,0,0,.08);
+  }
+}
+
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0;
+  font:16px/1.5 system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  background:var(--bg);
+  color:var(--text);
+}
+
+/* ===== Layout principal ===== */
+.container{
+  max-width: 980px;
+  margin: 36px auto;
+  padding: 0 20px 60px;
+}
+
+.profile-header{
+  position: relative;
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--panel);
+  box-shadow: var(--shadow);
+}
+
+.cover{
+  height: 120px;
+  background: linear-gradient(135deg, var(--brand), var(--brand-ink));
+  opacity:.95;
+}
+
+.identity{
+  display:grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 18px 22px;
+  align-items: center;
+  padding: 18px 22px 22px;
+  margin-top: -54px; /* remonte l’avatar sur la cover */
+}
+
+.avatar{
+  width:110px; height:110px;
+  margin:0;
+  border-radius: 999px;
+  border: 4px solid var(--panel);
+  overflow:hidden;
+  box-shadow: 0 10px 18px rgba(0,0,0,.25);
+}
+.avatar img{
+  width:100%; height:100%; object-fit: cover; display:block;
+}
+
+.who .name{
+  margin: 8px 0 4px;
+  font-size: clamp(1.2rem, 2.4vw, 1.8rem);
+}
+.tag{
+  margin:0;
+  color: var(--muted);
+  font-size: .95rem;
+}
+.badge{
+  display:inline-block;
+  margin-top:6px;
+  padding:.25rem .55rem;
+  border-radius: 999px;
+  font-size:.78rem;
+  background:#1f2937;
+  color:#cfead6;
+}
+.badge--active{ background: rgba(34,197,94,.15); color:#22c55e; }
+
+.actions{
+  display:flex; gap:10px; flex-wrap: wrap; justify-self:end;
+}
+
+.btn{
+  appearance:none; border:1px solid transparent;
+  padding:.6rem .9rem; border-radius:10px; cursor:pointer;
+  background: var(--panel); color: var(--text);
+  transition: transform .05s ease, box-shadow .2s ease, border-color .2s ease, background .2s ease;
+  box-shadow: var(--shadow);
+  text-decoration:none; font-weight:600; white-space: nowrap;
+}
+.btn:hover{ transform: translateY(-1px); }
+.btn:focus-visible{ outline:none; box-shadow: var(--ring); }
+
+.btn--primary{ background: var(--brand); color:#fff; }
+.btn--ghost{ background: transparent; border-color: #2b2f38; }
+.btn--danger{ background: rgba(239,68,68,.12); color:#fecaca; border-color: rgba(239,68,68,.35); }
+.btn--danger:hover{ background: rgba(239,68,68,.18); }
+
+/* ===== Cartes ===== */
+.card{
+  margin-top: 20px;
+  padding: 18px 18px 8px;
+  background: var(--panel);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+.card__title{
+  margin: 6px 6px 14px;
+  font-size: 1.05rem;
+  letter-spacing:.2px;
+}
+
+/* ===== Grille d’infos ===== */
+.grid{
+  display:grid;
+  grid-template-columns: repeat(2, minmax(0,1fr));
+  gap: 12px 18px;
+  padding: 4px 6px 16px;
+}
+@media (max-width:720px){
+  .identity{
+    grid-template-columns: 1fr; justify-items:center; text-align:center;
+  }
+  .actions{ justify-content:center; }
+  .grid{ grid-template-columns: 1fr; }
+}
+
+.field{
+  display:flex; flex-direction:column; gap:4px;
+  padding:12px; border:1px solid #22262e; border-radius:12px;
+}
+.label{
+  font-size:.8rem; color: var(--muted);
+}
+.value{
+  font-weight:600; letter-spacing:.2px;
+  word-break: break-word;
+}
+.link{ color: var(--brand); text-decoration:none; }
+.link:hover{ text-decoration: underline; }
+
+/* ===== Liste simple ===== */
+.list{ list-style:none; margin: 0; padding: 2px 6px 14px; }
+.list__item{
+  display:flex; justify-content:space-between; gap:12px;
+  padding:12px; border:1px solid #22262e; border-radius:12px;
+}
+.list__item + .list__item{ margin-top:10px; }
+
+/* ===== Footer ===== */
+.footer{
+  text-align:center; color:var(--muted); margin-top:20px; font-size:.9rem;
+}

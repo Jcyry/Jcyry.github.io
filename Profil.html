@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cyrimarket</title>
+  <link rel="stylesheet" href="profil.css" />
+</head>
+<body>
+  <main class="container" aria-labelledby="profile-title">
+    <!-- En-tête du profil -->
+    <header class="profile-header">
+      <div class="cover" aria-hidden="true"></div>
+
+      <div class="identity">
+        <figure class="avatar">
+          <!-- Remplacez src par la vraie photo -->
+          <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=640"
+               alt="Photo de profil de l’utilisateur" />
+        </figure>
+
+        <div class="who">
+          <h1 id="profile-title" class="name">Awa Kouadio</h1>
+          <p class="tag">@akouadio</p>
+          <span class="badge badge--active" aria-label="Statut du compte : actif">Actif</span>
+        </div>
+
+        <div class="actions">
+          <a class="btn" href="tel:+2250102030405" aria-label="Appeler le numéro">
+            📞 Appeler
+          </a>
+          <a class="btn btn--ghost" href="mailto:awa.kouadio@example.com" aria-label="Envoyer un e-mail">
+            ✉️ E-mail
+          </a>
+          <button class="btn btn--primary" type="button" aria-label="Modifier le profil">
+            ✎ Modifier
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Informations personnelles -->
+    <section class="card" aria-labelledby="infos-title">
+      <h2 id="infos-title" class="card__title">Informations personnelles</h2>
+
+      <div class="grid">
+        <div class="field">
+          <span class="label">Nom complet</span>
+          <span class="value">Awa Kouadio</span>
+        </div>
+
+        <div class="field">
+          <span class="label">Téléphone</span>
+          <a class="value link" href="tel:+2250102030405">+225 01 02 03 04 05</a>
+        </div>
+
+        <div class="field">
+          <span class="label">E-mail</span>
+          <a class="value link" href="mailto:awa.kouadio@example.com">awa.kouadio@example.com</a>
+        </div>
+
+        <div class="field">
+          <span class="label">Date de naissance</span>
+          <span class="value">12 mars 1999</span>
+        </div>
+
+        <div class="field">
+          <span class="label">Adresse</span>
+          <span class="value">Cocody, Abidjan, Côte d’Ivoire</span>
+        </div>
+
+        <div class="field">
+          <span class="label">Genre</span>
+          <span class="value">Féminin</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Préférences / Métadonnées -->
+    <section class="card" aria-labelledby="prefs-title">
+      <h2 id="prefs-title" class="card__title">Préférences</h2>
+
+      <ul class="list">
+        <li class="list__item">
+          <span class="label">Langue</span>
+          <span class="value">Français (Côte d’Ivoire)</span>
+        </li>
+        <li class="list__item">
+          <span class="label">Fuseau horaire</span>
+          <span class="value">GMT+0 (Afrique/Abidjan)</span>
+        </li>
+        <li class="list__item">
+          <span class="label">Notifications</span>
+          <span class="value">Activées</span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Sécurité -->
+    <section class="card" aria-labelledby="security-title">
+      <h2 id="security-title" class="card__title">Sécurité du compte</h2>
+
+      <div class="grid">
+        <div class="field">
+          <span class="label">ID utilisateur</span>
+          <span class="value">USR-9F2A-14</span>
+        </div>
+        <div class="field">
+          <span class="label">2FA</span>
+          <span class="value">Activée (SMS)</span>
+        </div>
+        <div class="field">
+          <span class="label">Dernière connexion</span>
+          <span class="value">13 août 2025 • 18:42</span>
+        </div>
+      </div>
+
+      <div class="actions actions--row">
+        <button class="btn btn--ghost" type="button">Changer le mot de passe</button>
+        <button class="btn btn--danger" type="button">Déconnecter tous les appareils</button>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <small>© 2025 — Profil démo. Remplacez les données statiques par vos valeurs.</small>
+    </footer>
+  </main>
+</body>
+</html>
