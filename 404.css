@@ -4,7 +4,7 @@
 }
 @media (max-width: 575.98px){
  body{
-    background-color: blue;
+    background-color: rgb(19,74,225, 0.7);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -15,7 +15,7 @@
  }
  div.error{
     width: 70%;
-    background-color: rgb(225, 225, 225, 0.5);
+    background-color: rgb(225, 225, 225, 0.7);
     padding: 30px;
     border-radius: 30px;
  }
@@ -24,7 +24,7 @@
     font-family: Times New Roman;
     font-size: 25px;
  }
-p1{
+p{
     color: white;
     font-family: times new Roman;
     font-weight: bold;
