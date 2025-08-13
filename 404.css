@@ -14,10 +14,10 @@
  }
  }
  div.error{
-    width: 50%;
-    height: 50%;
+    width: 70%;
     background-color: rgb(225, 225, 225, 0.5);
-    pasding: 30px;
+    padding: 30px;
+    border-radius: 30px;
  }
  h1{
     color: rgb(19,74,225, 1);
