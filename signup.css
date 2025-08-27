@@ -10,23 +10,22 @@
         background-color: var(--bgcolor);
         display: block;
         justify-content: center;
-        display: flex;
         height: 100vh;
         width: 100vw;
     }
 }
     div.contener{
         width: 70vw;
-        border: 2px blue;
+        border: 2px solid var(--colordiv);
         background-color: transparent;
     }
     input{
-        border: 2px var(--colordiv); /*couleur de bordures des inouts*/
+        border: 2px solid var(--colordiv); /*couleur de bordures des inouts*/
         border-radius: 30px;
         margin-bottom: 15px;
         width: 200px;
         paddind: 10px;
-        heigth: 25px;
+        heigth: 30px;
         display: block;
     }
     div{
