@@ -7,7 +7,7 @@
         --colordiv: rgb(42, 93, 232, 0.7);/* couleur des div par defaut*/
     }
     body{
-        background-color: blue;
+        background-color: var(--bgcolor);
         display: block;
         justify-content: center;
         display: flex;
@@ -17,7 +17,7 @@
 }
     div.contener{
         width: 70vw;
-        border: 2px var blue;
+        border: 2px blue;
         background-color: transparent;
     }
     input{
@@ -26,6 +26,7 @@
         margin-bottom: 15px;
         width: 200px;
         paddind: 10px;
+        heigth: 25px;
         display: block;
     }
     div{
