@@ -7,7 +7,7 @@
         --colordiv: rgb(42, 93, 232, 0.7);/* couleur des div par defaut*/
     }
     body{
-        background-color: var(--bgcolor);
+        background-color: blue;
         display: block;
         justify-content: center;
         display: flex;
@@ -25,9 +25,10 @@
         border-radius: 30px;
         margin-bottom: 15px;
         width: 200px;
-        paddind:10px;
+        paddind: 10px;
         display: block;
     }
     div{
         display: block;
+        justify-content: center;
     }
