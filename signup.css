@@ -22,13 +22,12 @@
         background-color: red;
         display: block;
         justify-content: center;
-        padding: 20px;
     }
     input{
         border: 2px solid var(--colordiv); /*couleur de bordures des inouts*/
         border-radius: 30px;
         margin-bottom: 15px;
-        width: 50px;
+        width: 80%;
         padding: 10px;
         height: 30px;
         display: block;
@@ -41,6 +40,7 @@
     form{
         display: block;
         justify-content: center;
+        width: 100%;
     }
     button{
         background-color: var(--btcolor);
