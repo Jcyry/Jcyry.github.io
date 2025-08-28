@@ -17,7 +17,10 @@
     div.contener{
         width: 70vw;
         border: 2px solid var(--colordiv);
-        background-color: transparent;
+        background-color: red;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
     }
     input{
         border: 2px solid var(--colordiv); /*couleur de bordures des inouts*/
