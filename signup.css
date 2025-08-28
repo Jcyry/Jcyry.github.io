@@ -54,7 +54,7 @@ div.slo{
     position: absolute;
     left: 20px;
     top: 145px;
-    color: col;
+    color: var(--col);
     font-family: system-ui;
     font-size: 14px;
 }
