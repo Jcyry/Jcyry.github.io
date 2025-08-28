@@ -2,10 +2,21 @@
     margin: 0;
     padding: 0;
 }
+:root{
+    --bg: #121212;
+    --in: #575353;
+}
+@media (prefers-color-scheme: light){
+    :root{
+        --bg: #ffffff;
+        --in: #575353;
+    }
+}
 html,
 body{
     width: 100vw;
     height: 100vh;
+    background-color: var(--bg);
 }
 img.logo{
     height: 50px;
