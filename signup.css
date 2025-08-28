@@ -74,7 +74,7 @@ div.form{
     margin-bottom: 20px;
 }
 label{
-    font-family: segoe ui;
+    font-family: Segoe UI;
     font-size: 14px;
     color: var(--lofc);
 }
@@ -85,4 +85,10 @@ input{
     border: solid 1.5px var(--in);
     border-radius: 20px;
     background-color: var(--inbg);
+}
+/*boutton de validation*/
+boutton{
+    width: 85vw;
+    height: 30px;
+    background-color: #31c410;
 }
