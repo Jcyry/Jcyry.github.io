@@ -4,7 +4,7 @@
 }
 :root{
     --bg: #121212;
-    --in: #575353;
+    --in: #0B69E7;
     --col: #ffffff;
     --lofc: #ffffff;
 }
@@ -41,7 +41,7 @@ top: 0px;
 }
 /* Propriété appliquées a l'ectiture di logo*/
 div.lof{
-    position: absolute;
+    position: fixed;
     left: 20px;
     font-family: Bebas Neue;
     font-size: 30px;
@@ -51,10 +51,30 @@ div.lof{
     color: var(--lofc);
 }
 div.slo{
-    position: absolute;
+    position: fixed;
     left: 20px;
     top: 145px;
-    color: var(--col);
+    color: col;
     font-family: system-ui;
     font-size: 14px;
+}
+/* Mise en forme di formulaire*/
+form{
+    position: fixed;
+    top: 165px;
+    width: 100%;
+    display: block;
+}
+div.form{
+    display: block;
+}
+label{
+    font-family: system-ui;
+    font-size: 16px;
+}
+input{
+    width: 80vw;
+    height: 30px;
+    padding: 10px;
+    border: solid 1.5px var(--in);
 }
