@@ -38,9 +38,10 @@ top: 0px;
 /* Propriété appliquées a l'ectiture di logo*/
 div.lof{
     position: absolute;
-    left: 30px;
+    left: 20px;
     font-family: Bebas Neue;
     font-size: 30px;
     font-weight: bold;
     font-style: italic;
+    top: 110px;
 }
