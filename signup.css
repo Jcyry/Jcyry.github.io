@@ -7,6 +7,7 @@
     --in: #0B69E7;
     --col: #ffffff;
     --lofc: #ffffff;
+    --inbg: rgb(122, 122, 122, 0.3);
 }
 @media (prefers-color-scheme: light){
     :root{
@@ -14,6 +15,7 @@
         --in: #575353;
         --col: #575353;
         --lofc: #000000;
+        --inbg: transparent;
     }
 }
 html,
@@ -61,21 +63,26 @@ div.slo{
 /* Mise en forme di formulaire*/
 form{
     position: fixed;
-    top: 165px;
+    top: 175px;
     width: 100%;
     display: block;
+    right: 20px;
 }
 div.form{
     display: flex;
     flex-direction: column;
+    margin-bottom: 20px;
 }
 label{
     font-family: system-ui;
     font-size: 16px;
+    color: var(--lofc);
 }
 input{
     width: 80vw;
     height: 30px;
     padding: 10px;
     border: solid 1.5px var(--in);
+    border-radius: 20px;
+    background-color: var(--inbg);
 }
