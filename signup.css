@@ -5,11 +5,15 @@
 :root{
     --bg: #121212;
     --in: #575353;
+    --col: #ffffff;
+    --lofc: #ffffff;
 }
 @media (prefers-color-scheme: light){
     :root{
         --bg: #ffffff;
         --in: #575353;
+        --col: #575353;
+        --lofc: #000000;
     }
 }
 html,
@@ -44,4 +48,13 @@ div.lof{
     font-weight: bold;
     font-style: italic;
     top: 110px;
+    color: var(--lofc);
+}
+div.slo{
+    position: absolute;
+    left: 20px;
+    top: 145px;
+    color: col;
+    font-family: system-ui;
+    font-size: 14px;
 }
