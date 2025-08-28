@@ -79,7 +79,7 @@ label{
     color: var(--lofc);
 }
 input{
-    width: 80vw;
+    width: 85vw;
     height: 30px;
     padding: 10px;
     border: solid 1.5px var(--in);
