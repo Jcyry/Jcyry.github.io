@@ -17,6 +17,7 @@
     .cont{
         width: 70vw;
         border: 2px solid var(--colordiv);
+        border-radius: 30px;
         background-color: red;
         display: block;
         justify-content: center;
