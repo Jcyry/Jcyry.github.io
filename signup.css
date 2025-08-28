@@ -6,6 +6,7 @@
     :root{
         --bgcolor: #ffffff; /* couleur du fond par defaut */
         --colordiv: rgb(42, 93, 232, 0.7);/* couleur des div par defaut*/
+        --btcolor: #22ff00;
     }
     body{
         background-color: var(--bgcolor);
@@ -27,13 +28,24 @@
         border: 2px solid var(--colordiv); /*couleur de bordures des inouts*/
         border-radius: 30px;
         margin-bottom: 15px;
-        width: 200px;
+        width: 50px;
         padding: 10px;
         height: 30px;
         display: block;
     }
-    div{
+    h1{
+        font-size: 20px;
+        color: var(--colordiv);
+        font-family: Times New Roman;
+    }
+    form{
         display: block;
         justify-content: center;
     }
-}
+    button{
+        background-color: var(--btcolor);
+        padding: 7px;
+        border-radius: 30px;
+        font-family: Times New Roman;
+        font-size: 16px;
+    }
