@@ -66,7 +66,7 @@ form{
     top: 175px;
     width: 100%;
     display: block;
-    right: 20px;
+    left: 20px;
 }
 div.form{
     display: flex;
@@ -79,7 +79,7 @@ label{
     color: var(--lofc);
 }
 input{
-    width: 80vw;
+    width: 70vw;
     height: 30px;
     padding: 10px;
     border: solid 1.5px var(--in);
