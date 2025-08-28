@@ -87,8 +87,9 @@ input{
     background-color: var(--inbg);
 }
 /*boutton de validation*/
-boutton{
+button{
     width: 85vw;
     height: 30px;
     background-color: #31c410;
+    border-radius: 20px;
 }
