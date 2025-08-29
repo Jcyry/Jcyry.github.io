@@ -106,8 +106,12 @@ div.info{
     position: fixed;
     bottom: 40px;
     text-align: center;
+    width: 100vw;
+    display: flex;
 }
 p{
     text-align: center;
     color: var(--col);
+    font: segeo ui;
+    font-size: 14px
 }
