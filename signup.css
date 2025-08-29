@@ -18,6 +18,7 @@
         --inbg: transparent;
     }
 }
+@media (max-width: 578.95px){
 html,
 body{
     width: 100vw;
@@ -114,4 +115,5 @@ p{
     color: var(--col);
     font: segeo ui;
     font-size: 14px
+}
 }
