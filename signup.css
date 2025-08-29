@@ -83,13 +83,13 @@ input{
     height: 30px;
     padding: 10px;
     border: solid 1.5px var(--in);
-    border-radius: 20px;
+    border-radius: 15px;
     background-color: var(--inbg);
 }
 /*boutton de validation*/
 button{
     width: 90vw;
-    height: 30px;
+    height: 40px;
     background-color: #31c410;
-    border-radius: 20px;
+    border-radius: 15px;
 }
