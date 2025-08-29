@@ -68,7 +68,7 @@ form{
     display: block;
     left: 20px;
 }
-div.form{
+form div.form{
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
@@ -85,6 +85,7 @@ input{
     border: solid 1.5px var(--in);
     border-radius: 15px;
     background-color: var(--inbg);
+    outline: none;
 }
 /*boutton de validation*/
 button{
@@ -92,4 +93,21 @@ button{
     height: 40px;
     background-color: #31c410;
     border-radius: 15px;
+    border: none;
+}
+/*au cas ou vois avez deja un compte*/
+a{
+    color: #0B69E7;
+    font: Segoe ui;
+    font-size: 14px;
+    text-decoration: none;
+}
+div.info{
+    position: fixed;
+    bottom: 40px;
+    text-align: center;
+}
+p{
+    text-align: center;
+    color: var(--col);
 }
