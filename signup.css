@@ -8,6 +8,7 @@
     --col: #ffffff;
     --lofc: #ffffff;
     --inbg: rgb(122, 122, 122, 0.3);
+    --fnt: #ffffff;
 }
 @media (prefers-color-scheme: light){
     :root{
@@ -16,6 +17,7 @@
         --col: #575353;
         --lofc: #000000;
         --inbg: transparent;
+        --fnt: #7a7a7a;
     }
 }
 @media (max-width: 578.95px){
@@ -87,6 +89,9 @@ input{
     border-radius: 15px;
     background-color: var(--inbg);
     outline: none;
+    color: var(--fnt);
+    font: segeo ui;
+    font-size: 16px;
 }
 /*boutton de validation*/
 button{
