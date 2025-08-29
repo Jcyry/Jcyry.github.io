@@ -100,8 +100,10 @@ button{
     background-color: #31c410;
     border-radius: 15px;
     border: none;
+    font-weight: bold;
+    color: white;
 }
-/*au cas ou vois avez deja un compte*/
+/*au cas ou vous avez deja un compte*/
 a{
     color: #0B69E7;
     font: Segoe ui;
