@@ -52,6 +52,7 @@ ul{
     bottom: 0px;
     display: flex;
     flex-direction: row;
+    padding-bottom: 10px;
 }
 /* Voici les reglagez de mon arrire plan de menu */
 nav{
