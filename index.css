@@ -67,4 +67,6 @@ div.connect a{
     font-size: 14px;
     text-decoration: none;
     color: #ffffff;
+    display: flex;
+    flex-direction: inline;
 }
