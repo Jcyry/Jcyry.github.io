@@ -67,9 +67,13 @@ div.connect a{
     font-size: 14px;
     text-decoration: none;
     color: #ffffff;
+    margin-right: 20px;
+    border: solid 1.3px #ffffff;
+    border-radius: 30px;
+    padding: 5px;
 }
 div.connect{
     display: flex;
     flex-direction: inline;
-}
+    left: 20px;
 }
