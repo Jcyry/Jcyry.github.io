@@ -13,7 +13,7 @@ li{
     margin:none;
     border: none;
     background-color: transparent;
-    width: 20%;
+    width: 20vw;
     flex: 1;
     list-style: none;
     display: flex;
@@ -38,7 +38,8 @@ ul{
     position: fixed;
     z-index: 100;
     bottom: 0px;
-    display: flex
+    display: flex;
+    flex-direction: inline;
 }
 /* Voici les reglagez de mon arrire plan de menu */
 nav{
