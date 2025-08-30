@@ -4,10 +4,12 @@
 }
 :root{
     --bg: #121212;
+    --in: #0B69E7;
 }
 @media (prefers-color-scheme: light){
     :root{
-        --bg: #ffffff;
+        -bg: #ffffff;
+        --in: #575353;
     }
 }
 html,
@@ -33,4 +35,14 @@ align-items: center;
 position: fixed;
 z-index: 100;
 top: 0px;
+}
+@media (max-width: 575.95px){
+    input{
+        height: 30px;
+        padding: 10px;
+        border: solid 1.5px var(--in);
+        border-radius: 15px;
+        outline: none;
+        width: 85vw;
+    }
 }
