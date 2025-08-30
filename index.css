@@ -10,11 +10,9 @@ body{
 }
 li{
     text-decoration: none;
-    margin:none;
-    border: none;
+    margin: none;
     background-color: transparent;
     width: 20vw;
-    flex: 1;
     list-style: none;
     display: flex;
     align-items: center;
