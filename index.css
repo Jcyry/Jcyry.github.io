@@ -19,6 +19,7 @@ li{
     display: flex;
     align-items: center;
     justify-content: enter;
+    border: solid 1px black;
 }
 a.menu{
     text-decoration: none;
