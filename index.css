@@ -1,6 +1,7 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 body{
     background-color: var(--bg);
@@ -23,7 +24,7 @@ body{
 }
 li{
     text-decoration: none;
-    margin: none;
+    margin: 0;
     background-color: transparent;
     width: 20vw;
     list-style: none;
@@ -50,7 +51,7 @@ ul{
     z-index: 100;
     bottom: 0px;
     display: flex;
-    flex-direction: inline;
+    flex-direction: row;
 }
 /* Voici les reglagez de mon arrire plan de menu */
 nav{
