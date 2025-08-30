@@ -9,11 +9,11 @@ body{
 :root{
     --icol: #ffffff;
     --bg: #121212;
-    --men: #7a7a7a;
+    --men: ##2b2828;
 }
 @media (prefers-color-scheme: light){
     :root{
-        --icol: #827d7d;
+        --icol: #211e1e;
         --bg: aliceblue;
         --men: #ffffff;
     }
