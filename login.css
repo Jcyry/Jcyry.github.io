@@ -5,11 +5,15 @@
 :root{
     --bg: #121212;
     --in: #0B69E7;
+    --lacof: #ffffff;
+    --fnt: rgb(122, 122, 122, 0.30);
 }
 @media (prefers-color-scheme: light){
     :root{
         --bg: #ffffff;
         --in: #575353;
+        --lacof: #7a7a7a;
+        --fnt: transparent;
     }
 }
 html,
@@ -25,6 +29,11 @@ div.con{
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
+}
+label{
+    text-align: center;
+    font: segoe ui 14px;
+    color: var(--lacof);
 }
 /*proprieté appliquees au haut de la page sur tout les appareils */
 img.logo{
@@ -54,5 +63,6 @@ right: 0;
         border-radius: 15px;
         outline: none;
         width: 85vw;
+        background-color: var(--fnt);
     }
 }
