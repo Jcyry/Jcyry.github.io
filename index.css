@@ -9,7 +9,7 @@ body{
 :root{
     --icol: #ffffff;
     --bg: #121212;
-    --men: ##2b2828;
+    --men: #363333;
 }
 @media (prefers-color-scheme: light){
     :root{
