@@ -106,4 +106,26 @@ i{
 footer{
     display: none;
 }
+img.logo{
+    height: 50px;
+    width: 80px;
+    border-radius: 10px;
+    position: absolute;
+    right: 20px
+}
+div.connect a{
+    font-family: Segoe UI;
+    font-size: 14px;
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 14px;
+    border: solid 1.3px #ffffff;
+    border-radius: 30px;
+    padding: 5px;
+}
+div.connect{
+    display: flex;
+    flex-direction: inline;
+    left: 20px;
+    position: absolute;
 }
