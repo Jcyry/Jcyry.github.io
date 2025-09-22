@@ -122,11 +122,17 @@ div.connect ul li{
     border: solid 1.3px #ffffff;
     border-radius: 30px;
     padding: 5px;
+    list-style: none;
 }
 div.connect ul{
     display: flex;
     flex-direction: inline;
     left: 20px;
     position: absolute;
+}
+div.connect ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.2rem;
 }
 }
