@@ -123,6 +123,9 @@ div.connect ul li{
     border-radius: 30px;
     padding: 5px;
     list-style: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
 div.connect ul{
     display: flex;
@@ -136,5 +139,6 @@ div.connect ul li a{
     font-size: 0.9rem;
 }
 }
+
 
 
