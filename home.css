@@ -19,7 +19,7 @@ header{
     display: flex;
     flex-direction: row;
 }
-.box-logo img{
+img{
     height: 50px;
     width: 80px;
 }
