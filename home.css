@@ -88,7 +88,7 @@ nav ul{
     display: flex;
 }
 nav ul li{
-    list-style: none
+    list-style: none;
     margin-right: 30px;
 }
 nav ul li a{
