@@ -55,3 +55,12 @@ div.recherche{
     border: none;
     padding: 8px;
 }
+/*les icines d'alerte*/
+div.alert{
+    display: flex;
+    position: absolute;
+    right: 100px;
+}
+div.element{
+    display: block;
+}
