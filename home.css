@@ -63,7 +63,11 @@ div.alert{
 }
 div.element{
     display: block;
+    text-align: center;
 }
 i{
     color: #f0a51a;
+}
+div.element p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-seri;
 }
