@@ -34,10 +34,12 @@ div.recherche{
     padding: 0;
     width: 380px;
     border-radius: 30px;
+    background-clip: #ffffff;
 }
 .recherche input{
     width: 100%;
     margin: 0;
     border: none;
     padding: 8px;
+    background-color: transparent;
 }
