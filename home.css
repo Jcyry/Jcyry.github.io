@@ -13,7 +13,7 @@ header{
     display: flex; /*pour alogner tout les elements de l'entete!important!important!important */
     align-items: center;
     justify-content: center;
-    max-height: 127px;
+    max-height: 120px;
     padding-top: 8px;
     padding-bottom: 8px;
 }
