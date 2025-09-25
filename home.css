@@ -23,3 +23,7 @@ header{
     height: 100px;
     width: 120px;
 }
+.logo-box h2{
+    font-family: Bebas Neue;
+    font-size: 0.9em;
+}
