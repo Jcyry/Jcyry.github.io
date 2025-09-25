@@ -66,6 +66,7 @@ div.alert{
 div.element{
     display: block;
     text-align: center;
+    margin-right: 10px;
 }
 .element i{
     color: #f0a51a;
