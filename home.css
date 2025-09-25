@@ -47,6 +47,7 @@ div.recherche{
     padding: 8px;
     background-color: transparent;
     border: none;
+    outline: none;
 }
 .recherche button{
     background-color: transparent;
