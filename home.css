@@ -84,3 +84,10 @@ nav{
     margin: 0;
     background-color: #0c297d;
 }
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none
+    margin: right;
+}
