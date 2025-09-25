@@ -11,7 +11,8 @@ body{
 header{
     background-color: #0c297d;
     display: flex; /*pour alogner tout les elements de l'entete!important!important!important */
-    align-items: center; 
+    align-items: center;
+    justify-content: center;
     max-height: 90px;
 }
 /*ajustement de logo*/
@@ -42,4 +43,5 @@ div.recherche{
     border: none;
     padding: 8px;
     background-color: transparent;
+    border: none;
 }
