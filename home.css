@@ -17,6 +17,7 @@ header{
 /*ajustement de logo*/
 .logo-box{
     display: flex;
+    align-items: center;
 }
 img{
     height: 50px;
