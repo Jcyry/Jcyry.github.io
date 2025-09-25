@@ -12,7 +12,7 @@ header{
     background-color: #0c297d;
     display: flex; /*pour alogner tout les elements de l'entete!important!important!important */
     align-items: center; 
-    max-height: 120px;
+    max-height: 100px;
 }
 /*ajustement de logo*/
 .logo-box{
