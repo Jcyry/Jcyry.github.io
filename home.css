@@ -76,3 +76,11 @@ div.element p{
     font-size: 12px;
     color: #f0a51a;
 }
+/*mise en forme du volet de navigation*/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    background-color: #0c297d;
+}
