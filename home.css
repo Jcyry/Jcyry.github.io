@@ -27,3 +27,14 @@ header{
     font-family: Bebas Neue;
     font-size: 0.9em;
 }
+/*la barre de recherche*/
+div.recherche{
+    display: flex;
+    padding: 0;
+    width: 380px;
+}
+.recherche input{
+    width: 100%;
+    margin: 0;
+    
+}
