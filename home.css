@@ -26,6 +26,7 @@ header{
 .logo-box h2{
     font-family: Bebas Neue;
     font-size: 0.9em;
+    color: black;
 }
 /*la barre de recherche*/
 div.recherche{
