@@ -35,7 +35,7 @@ div.recherche{
     padding: 0;
     width: 380px;
     border-radius: 30px;
-    background-clip: #ffffff;
+    background-color: #ffffff;
 }
 .recherche input{
     width: 100%;
