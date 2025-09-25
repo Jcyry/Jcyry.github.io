@@ -45,3 +45,8 @@ div.recherche{
     background-color: transparent;
     border: none;
 }
+.recherche button{
+    background-color: transparent;
+    color: default;
+    border: none;
+}
