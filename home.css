@@ -14,6 +14,7 @@ header{
     align-items: center;
     justify-content: center;
     max-height: 120px;
+    padding-top: 8px;
 }
 /*ajustement de logo*/
 .logo-box{
