@@ -86,6 +86,8 @@ nav{
 }
 nav ul{
     display: flex;
+    position: absolute;
+    left: 140px;
 }
 nav ul li{
     list-style: none;
