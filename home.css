@@ -10,4 +10,6 @@ body{
 /*mise en forme du haut de la page*/
 header{
     background-color: #0c297d;
+    display: flex;
+    align-items: center;
 }
